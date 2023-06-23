@@ -1,14 +1,16 @@
+import { Infos, MeuCarro } from "./style";
+
 export function Carro(props) {
     return (
-      <div>
+      <MeuCarro>
         <h2>Meu carro</h2>
-        <ul>
+        <Infos>
           <li>Cor: {props.cor}</li>
           <li>Ano: {props.ano}</li>
           <li>Flex: {props.flex}</li>
           <li>Adicionado: {props.adicionadoPor}</li>
-        </ul>
-      </div>
+        </Infos>
+      </MeuCarro>
     );
   }
   
